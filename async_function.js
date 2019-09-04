@@ -8,7 +8,7 @@ function resolve_function(x) {
     });
   }
   
-  async function async() {
+  async function asyncc() {
     //console.log('calling');
     for(let i in arr){
             var result = await resolve_function(arr[i]);
@@ -16,5 +16,5 @@ function resolve_function(x) {
     }
   }
   
-  async();
+  asyncc();
   
